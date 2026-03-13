@@ -1,5 +1,5 @@
 const WorkPage = () => {
-  return <div>WorkPage</div>;
+  return <div></div>;
 };
 
 export default WorkPage;

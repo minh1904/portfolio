@@ -24,6 +24,7 @@ const spaceGrotesk = localFont({
 });
 
 import FloatingNavigation from '@/share/layout/FloatingNavigation';
+import Navbar from '@/share/layout/Navbar';
 
 export const metadata: Metadata = {
   title: {
@@ -44,6 +45,7 @@ export default function RootLayout({
         className={`${satoshi.variable} ${spaceGrotesk.variable} antialiased`}
       >
         {children}
+        <Navbar />
         <FloatingNavigation />
       </body>
     </html>
