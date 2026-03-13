@@ -23,6 +23,8 @@ const spaceGrotesk = localFont({
   display: 'swap',
 });
 
+import FloatingNavigation from '@/share/layout/FloatingNavigation';
+
 export const metadata: Metadata = {
   title: {
     template: 'VanMinh — %s',
@@ -39,9 +41,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${satoshi.variable} ${spaceGrotesk.variable} font-sans antialiased`}
+        className={`${satoshi.variable} ${spaceGrotesk.variable} antialiased`}
       >
         {children}
+        <FloatingNavigation />
       </body>
     </html>
   );

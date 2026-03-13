@@ -1,16 +1,11 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
+import WorkPage from '@/features/work/pages/WorkPage';
 
 export const metadata: Metadata = {
   title: 'Work',
 };
 
-const WorkPage = () => {
-  return (
-    <div>
-      <Link href="/">Home</Link>
-    </div>
-  );
-};
+export default function WorkRoute() {
+  return <WorkPage />;
+}
 
-export default WorkPage;

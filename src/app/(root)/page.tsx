@@ -1,9 +1,5 @@
-import Link from 'next/link';
+import HomePage from '@/features/home/pages/HomePage';
 
 export default function Home() {
-  return (
-    <div>
-      <Link href="/work">Work</Link>
-    </div>
-  );
+  return <HomePage />;
 }
