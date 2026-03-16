@@ -26,10 +26,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-4xl  p-1.5 rounded-full flex items-center justify-between z-50 ">
+    <nav className="fixed top-0 left-1/2 -translate-x-1/2 w-[calc(100%-2rem)] max-w-4xl  rounded-full flex items-center justify-between z-50 ">
       <Link
         href="/"
-        className="flex items-center justify-center gap-2 h-10 px-4 sm:px-5  text-primary text-sm font-medium "
+        className="flex items-center justify-center gap-2 h-10  sm:px-5  text-primary text-sm font-medium "
       >
         <Logo width={20} height={20} />
         <span className="pb-1">vm.dev</span>

@@ -16,7 +16,7 @@ const FloatingNavigation = () => {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 bg-white p-1.5 rounded-full flex items-center gap-1 sm:gap-2 z-50 shadow-lg border border-gray-200">
+    <nav className="fixed bottom-4  left-1/2 -translate-x-1/2 bg-white p-1.5 rounded-full flex items-center gap-1  z-50 shadow-lg border border-gray-200">
       {NAV_ITEMS.map(({ href, icon: Icon, label }) => {
         const isActive = pathname === href;
 

@@ -1,9 +1,11 @@
+import AboutPage from '@/features/about/pages/AboutPage';
+
 export const metadata = {
   title: 'About',
 };
 
-const AboutPage = () => {
-  return <div></div>;
+const AboutRoute = () => {
+  return <AboutPage />;
 };
 
-export default AboutPage;
+export default AboutRoute;
